@@ -32,3 +32,21 @@ def get_greeting():
 
 print(f"{get_greeting()} Shiza!")
 
+#Example 5
+def is_even(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+result = is_even(245)
+print(result)
+   
+   
+def is_even(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+result = is_even(300)
+print(result)
+
